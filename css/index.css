@@ -1,0 +1,83 @@
+canvas{
+    width: 800px;
+    height: 800px;
+   background-color: white;
+   border-radius: 10px;
+   padding-top: 20px;
+}
+body{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:gainsboro;
+    padding: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.color-option{
+    border: 5px solid white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform ease-in-out .1s;
+    border-radius: 50%;
+}
+.color-option:hover{
+    transform: scale(1.2);
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    gap:15px
+}
+input#color{
+   background-color: white;
+}
+button{
+    all:unset;
+    padding: 10px 0px;
+    background-color: royalblue;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity linear .1s;
+}
+button:hover{
+    opacity: 0.85;
+}
+input#file{
+    display: none;
+}
+input#text{
+    all:unset;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: wheat;
+}
+label{
+    all:unset;
+    padding: 20px 0px;
+    background-color: royalblue;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity linear .1s;
+}
